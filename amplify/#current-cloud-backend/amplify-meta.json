@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-abdamplify-dev-36d3d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::997050731954:role/amplify-abdamplify-dev-36d3d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::997050731954:role/amplify-abdamplify-dev-36d3d-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-abdamplify-dev-36d3d-deployment",
+      "UnauthRoleName": "amplify-abdamplify-dev-36d3d-unauthRole",
+      "StackName": "amplify-abdamplify-dev-36d3d",
+      "StackId": "arn:aws:cloudformation:us-east-1:997050731954:stack/amplify-abdamplify-dev-36d3d/f8546580-6e59-11ef-be29-12b7e36bcd0f",
+      "AmplifyAppId": "d2olxfp684grx6"
+    }
+  },
+  "auth": {
+    "abdamplifyf1e7bd48": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-abdamplify-dev-36d3d-deployment/amplify-cfn-templates/auth/abdamplifyf1e7bd48-cloudformation-template.json",
+        "logicalId": "authabdamplifyf1e7bd48"
+      },
+      "lastPushTimeStamp": "2024-09-10T09:21:00.365Z",
+      "output": {
+        "UserPoolId": "us-east-1_KseqywKGQ",
+        "AppClientIDWeb": "1saaqp6g3vct92d4enhnbecobf",
+        "AppClientID": "7d0mkil88j5pgo33cta76kj6oe",
+        "IdentityPoolId": "us-east-1:78f8aff8-f3f1-4316-94b2-e6550750d7b4",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:997050731954:userpool/us-east-1_KseqywKGQ",
+        "IdentityPoolName": "abdamplifyf1e7bd48_identitypool_f1e7bd48__dev",
+        "UserPoolName": "abdamplifyf1e7bd48_userpool_f1e7bd48"
+      },
+      "lastPushDirHash": "mbpO7HoRv2+lDpHXoRxDqnTSUR4="
+    }
+  }
+}
